@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    ><!--
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Posicion Actual:"
+    />
+<TextView 
+    android:id="@+id/longitud"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Longitud: "
+    />
+<TextView
+    android:id="@+id/latitud"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Latitud: "
+    />
+<TextView 
+    android:id="@+id/presicion"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Presicion: "
+    />
+<Button 
+    android:id="@+id/getLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="obtener localizacion"
+    />
+<Button
+    android:id="@+id/sendLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="enviar localizacion"
+    />-->
+<Button
+    android:id="@+id/selectDevice"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="conectar"
+    />
+<ListView
+    android:id="@+id/listDevice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>

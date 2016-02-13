@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="determinante\nenter matriz\nexample c11,c21,c31=c21,c22,c23=c31,c32,c33"
+    />
+<EditText
+    android:id="@+id/matriz"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button
+    android:id="@+id/calcular"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="calcular"
+    />
+<TextView
+    android:id="@+id/response"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
